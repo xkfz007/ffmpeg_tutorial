@@ -15,7 +15,7 @@
 //
 // to play the video.
 
-extern "C"{
+//extern "C"{
 #include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"
 #include "libswscale/swscale.h"
@@ -25,7 +25,7 @@ extern "C"{
 
 #include "SDL/SDL.h"
 #include "SDL/SDL_thread.h"
-};
+//};
 #ifdef __MINGW32__
 #undef main /* Prevents SDL from overriding main() */
 #endif

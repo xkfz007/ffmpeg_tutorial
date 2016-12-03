@@ -21,14 +21,14 @@
 // to play the video stream on your screen.
 
 #include <stdio.h>
-extern "C"{
+//extern "C"{
 #include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"
 #include "libswscale/swscale.h"
 
 #include "SDL/SDL.h"
 #include "SDL/SDL_thread.h"
-};
+//};
 //#ifdef WIN32//__MINGW32__
 //#undef main /* Prevents SDL from overriding main() */
 //#endif

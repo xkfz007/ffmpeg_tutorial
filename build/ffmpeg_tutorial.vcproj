@@ -57,6 +57,7 @@
 				ObjectFile="$(IntDir)/"
 				WarningLevel="3"
 				DebugInformationFormat="4"
+				CompileAs="0"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
